@@ -23,7 +23,7 @@ setTasks(tasks)
   }
    
 useEffect(() => {
-    fetchData(); },[] );
+    fetchData(); },[tasks] );
   
     if (!tasks.length) {
       return (
