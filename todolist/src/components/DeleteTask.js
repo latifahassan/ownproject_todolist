@@ -11,7 +11,7 @@ export default function DeleteTask({ id }) {
     setLoading(true);
     const { data, error } = await supabase.from('todos').delete().eq('id', id);
     setLoading(false);
-
+    console.log(data, error);
     toast({
       title: error || 'Task deleted!',
       position: 'top',

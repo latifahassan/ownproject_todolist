@@ -20,6 +20,7 @@ import supabase from '../supabaseClient';
   .from('todos')
   .select('*')
 setTasks(tasks)
+console.log(error);
   }
    
 useEffect(() => {
