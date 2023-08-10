@@ -15,7 +15,7 @@ export default function ClearTasks() {
       .delete()
       .not('text', 'eq', 'Do not delete me');
     setLoading(false);
-
+    console.log(data, error);
     toast({
       title: error || 'Tasks cleared!',
       position: 'top',
