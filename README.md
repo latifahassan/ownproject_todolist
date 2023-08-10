@@ -45,6 +45,4 @@ This To-Do list app was born out of the necessity to balance a demanding bootcam
 
 Contributions Welcome
 I'm open to contributions! If you have suggestions, improvements, or new features in mind, feel free to submit a pull request.
-
-```
  
